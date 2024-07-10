@@ -1,11 +1,10 @@
 package main.java.kellywu3;
 
 public class App {
+    private static final int ROWS = 10;
+    private static final int COLUMNS = 10;
+    private static final int GRID_SIZE = 40;
     public static void main(String[] args) {
-        System.out.println("Hello and welcome!");
-
-        for(int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        GraphicsFrame graphicsFrame = new GraphicsFrame(ROWS, COLUMNS, GRID_SIZE);
     }
 }

@@ -2,11 +2,12 @@
 
 ## OVERVIEW
 
-This Java program generates random mazes.
+This Java program generates and displays a random maze.
 
 ## LIBRARIES/REQUIREMENTS
 
-- 
+- [javax.swing JFrame](https://docs.oracle.com/javase/8/docs/api/javax/swing/JFrame.html)
+- [javax.swing JPanel](https://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html)
 
 ## TOOLS
 
@@ -47,6 +48,10 @@ mvn package
 - **subscribers**: receive and process events from system
 - **benefits**: allows management of many publishers, allows subscribers to listen to specific events
 
+**Threads**
+- execution path within a program
+- allows allocation of time and/or performance resources amongst various tasks
+
 **Interfaces**
 - defines object behavior
 - can contain abstract methods
@@ -72,4 +77,5 @@ mvn package
 
 ## SOURCES
 
+- [Executable Jar Files](https://www.baeldung.com/executable-jar-with-maven)
 - 
